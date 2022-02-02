@@ -76,6 +76,10 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton("❤️VIP❤Assistant🤗", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981"),
+                    InlineKeyboardButton("🤩🤡OWNER🤡😎", url=f"https://t.me/umashankar31"),
+                ],
+                [
                     InlineKeyboardButton(
                         "👑SHAYRI😘Group❤️", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
