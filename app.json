@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/levinachannel",
-    "repository": "https://github.com/levina-lab/video-stream",
-    "success_url": "https://t.me/dlwrml",
+    "website": "https://t.me/shayari_jok",
+    "repository": "https://github.com/umashankar3/video-stream",
+    "success_url": "https://t.me/shayari_jok",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -55,7 +55,7 @@
         "UPSTREAM_REPO": {
             "description": "This is needed for update feature, if you deployed forked repo put your forked repo link here, if not just leave it as it",
             "required": true,
-            "value": "https://github.com/levina-lab/video-stream"
+            "value": "https://github.com/umashankar3/video-stream"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
