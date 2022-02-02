@@ -135,7 +135,22 @@ async def play(c: Client, m: Message):
                 await m.reply_photo(
                     photo=f"{IMG_1}",
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🗂 **Name:** [{songname}]({link}) | `music`\n⏱️ **Duration:** `{duration}`\n🧸 **Request by:** {requester}",
+                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🗂 **Name:** [{songname}]({link}) | `music`\n⏱️ **Duration:** `{duration}`\n🧸 **Request by:** {requester}"
+                  [
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
+                    )
+
+                ], ,
                 )
             else:
                 try:
@@ -158,7 +173,24 @@ async def play(c: Client, m: Message):
                         photo=f"{IMG_2}",
                         reply_markup=InlineKeyboardMarkup(buttons),
                         caption=f"🗂 **Name:** [{songname}]({link}) | `music`\n💭 **Chat:** `{chat_id}`\n🧸 **Request by:** {requester}",
+                 
+                    [
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
                     )
+
+                ],
+
+)
                 except Exception as e:
                     await suhu.delete()
                     await m.reply_text(f"🚫 error:\n\n» {e}")
@@ -198,6 +230,21 @@ async def play(c: Client, m: Message):
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
                                 caption=f"💡 **Track added to queue »** `{pos}`\n\n🗂 **Name:** [{songname}]({url}) | `music`\n**⏱ Duration:** `{duration}`\n🧸 **Request by:** {requester}",
+                          [
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
+                    )
+
+                ],
                             )
                         else:
                             try:
@@ -220,6 +267,21 @@ async def play(c: Client, m: Message):
                                     photo=image,
                                     reply_markup=InlineKeyboardMarkup(buttons),
                                     caption=f"🗂 **Name:** [{songname}]({url}) | `music`\n**⏱ Duration:** `{duration}`\n🧸 **Request by:** {requester}",
+                           [
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
+                    )
+
+                ],
                                 )
                             except Exception as ep:
                                 await suhu.delete()
@@ -259,6 +321,21 @@ async def play(c: Client, m: Message):
                             photo=image,
                             reply_markup=InlineKeyboardMarkup(buttons),
                             caption=f"💡 **Track added to queue »** `{pos}`\n\n🗂 **Name:** [{songname}]({url}) | `music`\n**⏱ Duration:** `{duration}`\n🧸 **Request by:** {requester}",
+                     [
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
+                    )
+
+                ],
                         )
                     else:
                         try:
@@ -279,6 +356,21 @@ async def play(c: Client, m: Message):
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
                                 caption=f"🗂 **Name:** [{songname}]({url}) | `music`\n**⏱ Duration:** `{duration}`\n🧸 **Request by:** {requester}",
+                          [
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
+                    )
+
+                ],
                             )
                         except Exception as ep:
                             await suhu.delete()
