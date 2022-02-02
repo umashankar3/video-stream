@@ -55,8 +55,8 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the Telegram Group video chat!**
+        f"""😎 **Welcome {message.from_user.mention()} !**\n
+�😎 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the Telegram Group video chat!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
@@ -66,26 +66,26 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕😘 Add me to your Group😘 ➕",
+                        "➕😘 Add your Group😘 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❓🤔 Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚YOUR Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤️VIP❤Assistant🤗", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "😘Group❤️", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👑SHAYRI😘Group❤️", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "❤️ WhatsApp", url=f"https://chat.whatsapp.com/LDBTpyIdi6F3Cc2KVQj0kj"
+                        "👑WhatsApp⭐GROUP👑", url=f"https://chat.whatsapp.com/LDBTpyIdi6F3Cc2KVQj0kj"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "❤️Instagram❤️", url="https://instagram.com/umashankar31981"
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
 
                     )
                 ],
@@ -139,7 +139,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 bot status:\n"
+        "YYOUR🤖 bot status:\n"
         f"• **uptime:** `{uptime}`\n"
         f"• **start time:** `{START_TIME_ISO}`"
     )
