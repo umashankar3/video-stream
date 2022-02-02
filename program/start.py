@@ -66,26 +66,27 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕😘 Add me to your Group😘 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
+                    InlineKeyboardButton("📚YOUR Commands", callback_data="cbcmds"),
                     InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "😘Group❤️", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "❤️ WhatsApp", url=f"https://chat.whatsapp.com/LDBTpyIdi6F3Cc2KVQj0kj"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "❤️Instagram❤️", url="https://instagram.com/umashankar31981"
+
                     )
                 ],
             ]
@@ -106,9 +107,9 @@ async def alive(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🎉🤗Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "❤️👑Instagram👑❤️", url=f"https://instagram.com/umashankar31981"
                 ),
             ]
         ]
@@ -162,11 +163,11 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/{GROUP_SUPPORT}")
-                        ],
+                            InlineKeyboardButton("🎉🤗INSTAGRAM🤗", url=f"https://instagram.com/umashankar31981"),
+                            InlineKeyboardButton("👑❤️Support❤️", url=f"https://t.me/{GROUP_SUPPORT}")
+                        ]
                         [
-                            InlineKeyboardButton("👤 Assistant", url=f"https://t.me/{ass_uname}")
+                            InlineKeyboardButton("👤 Assistant👑", url=f"https://t.me/{ass_uname}")
                         ]
                     ]
                 )
