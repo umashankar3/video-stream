@@ -29,3 +29,18 @@ async def ytsearch(_, message: Message):
             [[InlineKeyboardButton("🗑 Close", callback_data="cls")]]
         ),
     )
+[
+
+                    InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981")
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "👑❤️Instagram❤️👑", url="https://instagram.com/umashankar31981"
+
+                    )
+
+                ],
