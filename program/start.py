@@ -58,9 +58,7 @@ async def start_(client: Client, message: Message):
         f"""😎 **Welcome {message.from_user.mention()} !**\n
 �😎 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the Telegram Group video chat!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -70,9 +68,7 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [
-                    InlineKeyboardButton("❤️VIP❤Assistant🤗", url=f"https://t.me/{OWNER_NAME}"),
-                ],
+
                 [
                     InlineKeyboardButton("❤️‍🔥FACEBOOK❤️‍🔥", url=f"https://www.facebook.com/Umashankar31981"),
                     InlineKeyboardButton("🤩🤡OWNER🤡😎", url=f"https://t.me/umashankar31"),
